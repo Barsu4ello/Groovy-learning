@@ -7,6 +7,7 @@ import java.lang.reflect.Array
 class ListRunner {
     static void main(String[] args) {
         def list = [1, 2, 3, 4]
+        def list2 = [] //пустой лист вместо new ArrayList
         def arr = [1, 2, 3, 4] as int[]
 
         assert list.getClass() == ArrayList
